@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang="en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="mobile.css">
+        <link rel="stylesheet" media="screen and (min-width: 768px)" href="tablet.css">
+        <link rel="stylesheet" media="screen and (min-width: 992px)" href="desktop.css">
+        <title>Hà Nội của tôi - trải nghiệm hà nội từ những thứ đơn giản nhất</title>
+    </head>
+    <body>
+
+        <!-- nav-bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tungtic.vn</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Trang chủ</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Info
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="children_food.html">Ẩm thực</a></li>
+                    <li><a class="dropdown-item" href="children_hotel.html">Khách sạn</a></li>
+                    <li><a class="dropdown-item" href="children_landmark.html">Điểm đến</a></li>
+                    <li><a class="dropdown-item" href="children_event.html">Sự kiện</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#gallery">Gallery</a></li>
+                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footInfo">About</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Carousel-fade-index -->
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/Carousel1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/Carousel2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/Carousel3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- Main Content -->
+
+        <div class="a-break">
+          <h2>Infomations</h2>
+        </div>
+
+        <div id="contentArea">
+          <div class="myCollums">
+            <div class="contentBox">
+              <a href="children_food.html" class="boxLink"></a>
+              <img src="img/Food.jpg" alt="">
+              <div class="inner-textBox">
+                <h3>Ẩm Thực</h3>
+                <p>Những món ăn không thể bỏ qua khi ghé thăm Hà Nội.</p>
+              </div>
+            </div>
+          </div>
+          <div class="myCollums">
+            <div class="contentBox">
+              <a href="children_hotel.html" class="boxLink"></a>
+              <img src="img/Hotel.jpg" alt="">
+              <div class="inner-textBox">
+                <h3>Khách Sạn</h3>
+                <p>Những khách sạn nơi bạn có thể nghỉ chân.</p>
+              </div>
+            </div>
+          </div>
+          <div class="myCollums">
+            <div class="contentBox">
+              <a href="children_landmark.html" class="boxLink"></a>
+              <img src="img/Sightseen.jpg" alt="">
+              <div class="inner-textBox">
+                <h3>Điểm Đến</h3>
+                <p>Những địa điểm đẹp để bạn checkin khoe với bạn bè.</p>
+              </div>
+            </div>
+          </div>
+          <div class="myCollums">
+            <div class="contentBox">
+              <a href="children_event.html" class="boxLink"></a>
+              <img src="img/Event.jpg" alt="">
+              <div class="inner-textBox">
+                <h3>Sự Kiện</h3>
+                <p>Những hoạt động vui chơi bạn không nên bỏ qua ở Hà Nội.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Gallery -->
+
+        <div class="a-break">
+          <h2>Gallery</h2>
+        </div>
+
+        <div id="gallery" class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+              <img
+                src="img/Gallery-1.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt=""
+              />
+  
+              <img
+                src="img/Gallery-vertical-1.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt=""
+              />
+            </div>
+  
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <img
+                src="img/Gallery-vertical-2.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt=""
+              />
+  
+              <img
+                src="img/Gallery-2.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt=""
+              />
+            </div>
+  
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <img
+                src="img/Gallery-3.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt=""
+              />
+  
+              <img
+                src="img/Gallery-vertical-3.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <!--footer-->
+
+        <div id="footInfo">
+            <div class="scmedia">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-instagram"></a>
+              <a href="#" class="fa fa-youtube"></a>
+            </div>
+            <div class="personal-info">
+              <p>Phone/Zalo: 1900 1009 - email: tungdhFX12979@funix.edu.vn</p>
+              <p> Since 2021 Copyright © <strong>Tùng tíc</strong></p>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+.myCollums {
+    float: left;
+    width: 25%;
+    padding: 1vw;
+}
+
+.contentBox {
+    padding: 1vw;
+    background-color: rgb(80, 26, 26);
+    position: relative;
+    border-radius: 1vw;
+    height: auto;
+}
+
+div.contentBox>img {
+    padding: 1vw;
+    width: 100%;
+    height: 18vw;
+}
+
+.inner-textBox {
+    position: static;
+    display: block;
+    z-index: 0;
+    margin-left: 5vw;
+    width: 70%;
+    padding: 1vw;
+    height: auto;
+    color: white;
+}
+
+.inner-textBox>h3 {
+    font-size: 2.1vw;
+    width: 10vw;
+}
+
+.fa {
+    font-size: 3vw;
+}
+
+div.section>p {
+    font-size: 130%;
+}

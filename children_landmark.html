@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang="en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="mobile.css">
+        <link rel="stylesheet" media="screen and (min-width: 768px)" href="tablet.css">
+        <link rel="stylesheet" media="screen and (min-width: 992px)" href="desktop.css">
+        <title>Hà Nội của tôi - trải nghiệm hà nội từ những thứ đơn giản nhất - địa điểm đẹp</title>
+    </head>
+    <body>
+
+        <!-- nav-bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Tungtic.vn</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Trang chủ</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Info
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="children_food.html">Ẩm thực</a></li>
+                      <li><a class="dropdown-item" href="children_hotel.html">Khách sạn</a></li>
+                      <li><a class="dropdown-item" href="children_landmark.html">Điểm đến</a></li>
+                      <li><a class="dropdown-item" href="children_event.html">Sự kiện</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#articles">Gallery</a></li>
+                    </ul>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footInfo">About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <!--Carousel-child-landmark--> 
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/lm-carousel-1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/lm-carousel-2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/lm-carousel-3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!--articles-->
+
+        <div id="articles">
+            <div class="section">
+                <h2>#1 Hồ Gươm</h2>
+                <p>Hồ Hoàn Kiếm (hay còn gọi là Hồ Gươm) là trái tim của Hà Nội. Đây không chỉ là nơi để mọi người thả hồn đi dạo, hóng mát mà còn gắn liền với người dân thủ đô về nhiều phương diện lịch sử văn hóa cũng như đi vào trong thơ ca. Nếu như đã tới thăm Hà Nội thì Hồ Hoàn Kiếm là một địa điểm mà chắc chắn các bạn không thể bỏ lỡ.</p>
+                <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapseExample">
+                        thêm ảnh...
+                    </button>
+                </p>
+                <div class="collapse" id="collapse-1">
+                    <div class="card card-body">
+                        <div id="gallery" class="container">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                <img
+                                    src="img/lm-1.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                    alt=""
+                                />
+                                </div>
+                    
+                                <div class="col-lg-4 mb-4 mb-lg-0">                   
+                                <img
+                                    src="img/lm-2.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                    alt=""
+                                />
+                                </div>
+                    
+                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="img/lm-3.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                    alt=""
+                                />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <h2>#2 Phố cổ Hà Nội</h2>
+                <p>Nhắc tới Hà Nội thì chắc hẳn ai cũng biết đến “Hà Nội 36 phố phường” hay “phố cổ Hà Nội”, với những con đường đã lưu giữ kí ức lịch sử của thủ đô. Phố cổ nay là điểm du lịch hấp dẫn mà du khách không thể bỏ qua khi đến đây.</p>
+                <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapseExample">
+                        thêm ảnh...
+                    </button>
+                </p>
+                <div class="collapse" id="collapse-2">
+                    <div class="card card-body">
+                        <div id="gallery" class="container">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                <img
+                                    src="img/lm-4.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                    alt=""
+                                />
+                                </div>
+                    
+                                <div class="col-lg-4 mb-4 mb-lg-0">                   
+                                <img
+                                    src="img/lm-5.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                    alt=""
+                                />
+                                </div>
+                    
+                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="img/lm-6.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                    alt=""
+                                />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <h2>#3 Lăng Bác</h2>
+                <p>Lăng Chủ tịch Hồ Chí Minh (hay lăng Bác) là một trong những công trình nổi tiếng không những có giá trị văn hoá lịch sử mà còn thu hút rất đông du khách tới thăm quan và tỏ lòng ngưỡng mộ tới vị cha già của dân tộc Việt Nam.</p>
+                <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapseExample">
+                        thêm ảnh...
+                    </button>
+                </p>
+                <div class="collapse" id="collapse-3">
+                    <div class="card card-body">
+                        <div id="gallery" class="container">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                <img
+                                    src="img/lm-7.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                    alt=""
+                                />
+                                </div>
+                    
+                                <div class="col-lg-4 mb-4 mb-lg-0">                   
+                                <img
+                                    src="img/lm-8.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                    alt=""
+                                />
+                                </div>
+                    
+                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                <img
+                                    src="img/lm-9.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4"
+                                    alt=""
+                                />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--footer-->
+
+        <div id="footInfo">
+            <div class="scmedia">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-instagram"></a>
+              <a href="#" class="fa fa-youtube"></a>
+            </div>
+            <div class="personal-info">
+              <p>Phone/Zalo: 1900 1009 - email: tungdhFX12979@funix.edu.vn</p>
+              <p> Since 2021 Copyright © <strong>Tùng tíc</strong></p>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    </body>
+</html>
