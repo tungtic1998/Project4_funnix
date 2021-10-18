@@ -3,6 +3,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.nav-bar {
+    font-family: sans-serif;
+}
+
 .btn-mycolor {
     color: black;
     background-color: rgb(248, 249, 250);
