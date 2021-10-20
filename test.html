@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .col {
+            float: left;
+            width: 33.3%;
+            height: 300px;
+            background-color: blue;
+        }
+
+        .padding-middle {
+            padding: 0px 10px 0px 10px;
+        }
+
+        #content {
+            width: 100%;
+        }
+
+        #content::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to my site</h1>
+    <p>Test number 1</p>
+    <div id="content">
+        <div class="col"></div>
+        <div class="col margin-middle"></div>
+        <div class="col"></div>
+    </div>
+</body>
+</html>
